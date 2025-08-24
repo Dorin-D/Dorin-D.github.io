@@ -1,4 +1,4 @@
-Title: 03. Todos
+Title: 04. Todos
 <!-- Date:  -->
 <!-- Modified: 2010-12-05 19:30 -->
 <!-- Category: Base -->
@@ -10,11 +10,12 @@ I have things to do. Sometimes, I am not aware of which things are most importan
 
 - [x] Check https://github.com/alexandrevicenzi/Flex for a two-column website with socials on lefthand
 - [ ] get two-column format customized for relevant page only 
-- [ ] Change google icon with google scholar
+- [x] Create publications page ~~Change google icon with google scholar~~
+    - [ ] Add presentations portfolio to publications page
 - [x] Make website
-- [ ] Publish website
+- [x] Publish website
 - [ ] Figure out how to customize templates for different pages
-- [ ] Create section of drawings
+- [x] Create section of drawings
     - [x] Create script that reads drawing files and writes them into a page
-    - [ ] Create CI pipeline that automatically runs the script then auto-generates the website
+    - [x] Create CI pipeline that automatically runs the script then auto-generates the website
 - [ ] Do proper checklisting (green checkmarks)

@@ -39,7 +39,7 @@ CC_LICENSE = {
 # Social widget
 SOCIAL = (
     # ("google-scholar", "https://scholar.google.com/citations?user=rUy_vioAAAAJ"),
-    ("google", "https://scholar.google.com/citations?user=rUy_vioAAAAJ"),
+    # ("google", "https://scholar.google.com/citations?user=rUy_vioAAAAJ"),
     # ("Another social link", "aaa"),
 )
 

@@ -1,4 +1,4 @@
-Title: 02. Teaching
+Title: 03. Teaching
 <!-- show_socials: false -->
 
 #### European Summer School of Artificial Intelligence, 2025
