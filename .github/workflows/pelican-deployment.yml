@@ -6,8 +6,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
 jobs:
-  run-script:
+  deploy:
+    name: Deploy website
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
@@ -16,13 +21,8 @@ jobs:
           python-version: '3.x'
       - name: Run script
         run: python content/generate_drawings_list.py
-        
-  Deploy:
-    uses: seanh/ghp-pelican/.github/workflows/pelican.yml@main
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    with:
-      settings: "publishconf.py"
-      requirements: "pelican[markdown]"
+      - name: Deploy website
+        uses: seanh/ghp-pelican/.github/workflows/pelican.yml@main
+        with:
+          settings: "publishconf.py"
+          requirements: "pelican[markdown]"
