@@ -6,6 +6,17 @@ on:
     branches: ["main"]
   workflow_dispatch:
 jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run script
+        run: python content/generate_drawings_list.py
+        
   Deploy:
     uses: seanh/ghp-pelican/.github/workflows/pelican.yml@main
     permissions:
