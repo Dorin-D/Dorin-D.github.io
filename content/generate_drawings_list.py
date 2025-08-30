@@ -22,7 +22,7 @@ page_content = ""
 page_content += "Title: 05. Drawing Portfolio\n\n"
 # leading paragraph
 page_content += "This is a collection of digital drawings I've made. I hope I'll be able to expand it consistently :)\n\n"
-for id, date, title, file_location in list_of_drawings:
+for id, date, title, file_location in list_of_drawings[::-1]:
     page_content += "%s. [%s](%s) on %s\n" %(id, title, file_location, date)
 
 with open("content/pages/Drawings.md", "w") as f:
