@@ -19,7 +19,7 @@ for i, drawing in enumerate(drawings):
 
 # add content
 page_content = ""
-page_content += "Title: 05. Drawing Portfolio\n\n"
+page_content += "Title: 04. Drawing Portfolio\n\n"
 # leading paragraph
 page_content += "This is a collection of digital drawings I've made. I hope I'll be able to expand it consistently :)\n\n"
 for id, date, title, file_location in list_of_drawings[::-1]:
