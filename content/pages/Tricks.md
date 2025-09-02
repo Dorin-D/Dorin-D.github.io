@@ -3,4 +3,4 @@ Title: 05. Tricks
 
 A future-big compilation of tricks that I find meaningful.
 
-1. To link to the first instance of a text on a website, append #:~:text=Text goes here" to the URL.
+1. To link to the first instance of a text on a website, append "#:~:text=instance of a text" to the URL.
